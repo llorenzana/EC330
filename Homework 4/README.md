@@ -10,19 +10,18 @@ Implement sortByFreq in sorta.cpp. You are allowed to use only the libraries <st
   
  b) We will implement a Bloom filter to check active phishing URLs in this problem.
 The files phishing-links-ACTIVE.txt and phishing-links-INACTIVE.txt contain two
-sets of phishing URLs obtained from
-https://github.com/mitchellkrogza/Phishing.Database. Each line in these two files
-is a URL. We will design a Bloom filter so that the Bloom filter contains the set
+sets of phishing URLs obtained from 
+        https://github.com/mitchellkrogza/Phishing.Database
+Each line in these two files is a URL. We will design a Bloom filter so that the Bloom filter contains the set
 of ACTIVE phishing links, and the false positive rate for classifying an
-INACTIVE phishing link as ACTIVE is minimized. The file phishing-linksINACTIVE.txt contains 10% of all the INACTIVE links that we will use to test
-your implementation. The size of the Bloom filter is set to 330. Your Bloom filter
+INACTIVE phishing link as ACTIVE is minimized. The file phishing-linksINACTIVE.txt contains 10% of all the INACTIVE links that we will use to test your implementation. The size of the Bloom filter is set to 330. Your Bloom filter
 implementation should have a false positive rate strictly less than 30%. Submit
 bfilter.cpp on Gradescope. [40 pt]
 The submissions that has the lowest false positive rate will get 20 bonus points.
 We will consider multiple top submissions if the difference is not significant.
 Below are some resources for hash functions that you can use. You are free to use
 other hash functions.
-http://www.partow.net/programming/hashfunctions/index.html#AvailableHashFu
-nctions
-https://en.wikipedia.org/wiki/Double_hashing
-http://hashlib2plus.sourceforge.net
+
+        http://www.partow.net/programming/hashfunctions/index.html#AvailableHashFunctions
+        https://en.wikipedia.org/wiki/Double_hashing
+        http://hashlib2plus.sourceforge.net
