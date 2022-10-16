@@ -21,7 +21,7 @@ The submissions that has the lowest false positive rate will get 20 bonus points
 We will consider multiple top submissions if the difference is not significant.
 Below are some resources for hash functions that you can use. You are free to use
 other hash functions.
-
-        http://www.partow.net/programming/hashfunctions/index.html#AvailableHashFunctions
-        https://en.wikipedia.org/wiki/Double_hashing
-        http://hashlib2plus.sourceforge.net
+    
+    http://www.partow.net/programming/hashfunctions/index.html#AvailableHashFunctions
+     https://en.wikipedia.org/wiki/Double_hashing
+     http://hashlib2plus.sourceforge.net
